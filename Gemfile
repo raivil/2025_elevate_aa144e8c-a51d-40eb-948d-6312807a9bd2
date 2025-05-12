@@ -39,7 +39,7 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'rack-cors'
 gem 'active_model_serializers'
-gem "anyway_config", "~> 2.6.4"
+gem "anyway_config", "~> 2.7.2"
 gem "auto_strip_attributes", "~> 2.6.0"
 gem "database_validations", "~> 1.1.1"
 gem "faraday", "~> 2.12.0"

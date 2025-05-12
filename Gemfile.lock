@@ -79,7 +79,7 @@ GEM
       uri (>= 0.13.1)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
-    anyway_config (2.6.4)
+    anyway_config (2.7.2)
       ruby-next-core (~> 1.0)
     ast (2.4.3)
     auto_strip_attributes (2.6.0)
@@ -436,7 +436,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
-  anyway_config (~> 2.6.4)
+  anyway_config (~> 2.7.2)
   auto_strip_attributes (~> 2.6.0)
   bootsnap
   brakeman
