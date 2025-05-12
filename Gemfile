@@ -54,7 +54,7 @@ group :development, :test do
   gem "factory_bot_rails", "~> 6.4.3"
   gem "faker", "~> 3.4.2"
   gem "rspec_junit_formatter", "~> 0.6.0"
-  gem "rspec-rails", "~> 7.0.1"
+  gem "rspec-rails", "~> 8.0.0"
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
   gem "shoulda-matchers", "~> 6.4.0"
