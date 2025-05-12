@@ -1,0 +1,23 @@
+---
+http_interactions:
+- request:
+    method: patch
+    uri: https://www.example.com/patch
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.3.0
+  response:
+    status:
+      code: 405
+      message: ''
+    headers: {}
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 22 Jun 2022 12:06:47 GMT
+recorded_with: VCR 6.1.0
