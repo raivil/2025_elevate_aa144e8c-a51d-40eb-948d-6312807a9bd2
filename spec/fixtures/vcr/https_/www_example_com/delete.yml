@@ -1,0 +1,23 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://www.example.com/delete
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.3.0
+  response:
+    status:
+      code: 200
+      message: ''
+    headers: {}
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 22 Jun 2022 11:55:55 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,25 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.example.com/post
+    body:
+      encoding: UTF-8
+      string: ping
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.3.0
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: ''
+    headers: {}
+    body:
+      encoding: UTF-8
+      string: pong
+  recorded_at: Wed, 22 Jun 2022 12:07:05 GMT
+recorded_with: VCR 6.1.0
