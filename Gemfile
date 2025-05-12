@@ -57,7 +57,7 @@ group :development, :test do
   gem "rspec-rails", "~> 7.0.1"
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem "shoulda-matchers", "~> 6.4.0"
+  gem "shoulda-matchers", "~> 6.5.0"
   gem "vcr", "~> 6.3.1"
   gem "webmock" # , "~> 3.19.1"
 end
