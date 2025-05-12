@@ -1,0 +1,135 @@
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false
+# Omakase Ruby styling for Rails
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false
+require:
+  - rubocop-rspec
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-factory_bot
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+  AllowURI: true
+  Exclude:
+    - "spec/forms/**/*"
+    - "spec/frontend/components/**/*"
+
+Metrics/MethodLength:
+  Exclude:
+    - "db/migrate/**/*"
+
+Metrics/ClassLength:
+  Exclude:
+    - app/forms/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+    - "config/routes/**/*"
+    - "config/initializers/devise/devise.rb"
+    - app/forms/**/*
+    - db/seeds.rb
+  AllowedMethods:
+    - "class_methods"
+    - "form"
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/BlockDelimiters:
+  Exclude:
+    - "spec/**/*"
+
+Style/GlobalVars:
+  AllowedVariables:
+  - "$rails_rake_task"
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%w': '()'
+    '%W': '()'
+    '%i': '()'
+    '%I': '()'
+
+Style/FormatStringToken:
+  EnforcedStyle: template
+
+Naming/PredicateName:
+  ForbiddenPrefixes:
+    - is_
+  Exclude:
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
+Rails/HttpStatus:
+  EnforcedStyle: numeric
+
+RSpec/ImplicitSubject:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
+
+Style/HashSyntax:
+  Enabled: true
+  EnforcedShorthandSyntax: never
+
+# RSpec/AggregateExamples:
+#   AddAggregateFailuresMetadata: false
+
+AllCops:
+  DisabledByDefault: false
+  ActiveSupportExtensionsEnabled: true
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+
+Bundler/GemVersion:
+  Enabled: true
+
+Bundler/OrderedGems:
+  Enabled: true
+  TreatCommentsAsGroupSeparators: false
+
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - "spec/factories/**/*"
+
+RSpec/ExpectActual:
+  Exclude:
+    - spec/policies/**/*
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+    - staging

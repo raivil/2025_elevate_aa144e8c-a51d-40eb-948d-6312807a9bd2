@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/teams/8a49d79b-9885-434b-a636-8322b1eb4367
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      access_token:
+      - fake-access-token
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.12.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 04 Oct 2024 17:56:54 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '389'
+      connection:
+      - keep-alive
+      apigw-requestid:
+      - fIvf9jJwDoEEJUw=
+    body:
+      encoding: UTF-8
+      string: '{"id": "8a49d79b-9885-434b-a636-8322b1eb4367", "name": "Forward Red
+        Alpaca", "teamLeadId": "259dd299-cc45-447e-843a-7dbc6ec7922a", "teamMemberIds":
+        ["28c0d062-5652-4203-8f79-8147a3e4043d", "e1994559-c098-4037-85bf-f822ad33db00",
+        "b48d4d97-ac95-4dae-8baa-bb8bc80a159c", "b9ccde63-4430-4f94-8358-20156c7b0aa1",
+        "ca0c0859-0298-4b37-afe4-df50208cf4c2", "a09fe62b-2b9e-426a-8525-0394d4c4c1af"]}'
+  recorded_at: Fri, 04 Oct 2024 17:56:54 GMT
+recorded_with: VCR 6.3.1

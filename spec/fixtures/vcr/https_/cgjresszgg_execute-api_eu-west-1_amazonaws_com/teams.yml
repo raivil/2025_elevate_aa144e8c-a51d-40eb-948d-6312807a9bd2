@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/teams
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      access_token:
+      - fake-access-token
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.12.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 04 Oct 2024 17:56:52 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '8118'
+      connection:
+      - keep-alive
+      apigw-requestid:
+      - fIvfxi7NDoEEJ4g=
+    body:
+      encoding: UTF-8
+      string: '[{"id": "7676a4bf-adfe-415c-941b-1739af07039b", "name": "Ordinary Coral
+        Lynx"}, {"id": "5071b4fc-43f2-47a2-8403-e934dc270606", "name": "Weekly Peach
+        Wildebeest"}, {"id": "7cf0d32d-036f-40b6-86ea-2473d4ccaecd", "name": "Surrounding
+        Gold Pheasant"}, {"id": "de01d852-c519-4c54-b95a-80c5b6fa0157", "name": "Feminist
+        Maroon Gorilla"}, {"id": "89a50743-f60b-4345-a772-9d3c68021408", "name": "Resident
+        Scarlet Hare"}, {"id": "b1bd995c-9219-4eea-a7c4-f5c154a7e551", "name": "Light
+        Apricot Constrictor"}, {"id": "83e58f56-0ecf-4ea9-bdff-81ded3342061", "name":
+        "Varying Plum Cricket"}, {"id": "de908363-1cc6-4417-b4e1-a24e845f9680", "name":
+        "Beautiful White Moth"}, {"id": "0a7608be-05b6-400d-82b7-f074761d6ca5", "name":
+        "Zany Tomato Harrier"}, {"id": "74a93702-b19a-4b0a-8e9e-79b9c566baa1", "name":
+        "Brave Crimson Aardvark"}, {"id": "c02f6b75-641a-40eb-8294-d89550cb2395",
+        "name": "Stingy White Viper"}, {"id": "d4a64711-3a00-4537-8ee6-3cb538a5d98f",
+        "name": "Uneven Coffee Snake"}, {"id": "ed4df3b4-71b0-4471-bd74-3ba8ca94af02",
+        "name": "High Lime Mongoose"}, {"id": "6dbd78c4-cb86-4e9a-883b-f9f8f62772f5",
+        "name": "Rotten Teal Finch"}, {"id": "47bd0a96-bc39-4e4e-856f-2562669e53cc",
+        "name": "Smiling Magenta Swift"}, {"id": "0e98918d-eb2a-47d7-b667-d17674623b67",
+        "name": "Ugly White Elephant"}, {"id": "bfee158b-2f74-465e-805c-276c6806816a",
+        "name": "Willing Olive Marmoset"}, {"id": "f5769473-c2e6-45b9-8f2f-577ec99f0fd5",
+        "name": "Grieving Violet Thrush"}, {"id": "2f826c6c-a7a1-47f3-a677-b8e97fa3d00e",
+        "name": "Appalling Bronze Ptarmigan"}, {"id": "e8a18567-e2c3-40c9-aca6-8daaaa6edb39",
+        "name": "Natural Apricot Jay"}, {"id": "075de8be-7748-4e1a-9798-2112984dbd8a",
+        "name": "Damp Purple Skink"}, {"id": "916fd73e-0edc-44fd-8864-407473e83443",
+        "name": "Effective Tomato Marsupial"}, {"id": "74cdda67-5a54-4d79-a455-37154631848c",
+        "name": "Solid Lime Crocodile"}, {"id": "6b155edb-f98e-405c-a823-4f732b5a63b1",
+        "name": "Faint Teal Mole"}, {"id": "54a0e045-40c5-44ff-befb-e28aad26ad52",
+        "name": "Nutty Harlequin Spider"}, {"id": "10b2a3a5-afcb-4776-94ee-d3d02b678742",
+        "name": "Genetic Yellow Bug"}, {"id": "670b20c5-7787-49dc-aef4-7ffcca6e2c28",
+        "name": "Chilly Purple Heron"}, {"id": "5dd1321a-5343-42ab-8e8e-698d4ad064f8",
+        "name": "Beneficial Rose Quail"}, {"id": "bdf63d64-c387-43ae-913f-72f32d975cb1",
+        "name": "Defensive Teal Fly"}, {"id": "20dd4c83-546c-4e8b-89cd-300437833c35",
+        "name": "Comparative Silver Wildcat"}, {"id": "15746a08-a9ad-4e5f-89af-c333edd1a73f",
+        "name": "Inadequate Orange Fox"}, {"id": "c99c850b-a442-41ac-b9bc-209b792d0574",
+        "name": "Delicious Fuchsia Partridge"}, {"id": "5dd51093-73a3-496e-ac8b-4ca3d1de4d15",
+        "name": "Limited Coral Hyena"}, {"id": "39d4d4cf-979b-4bec-a729-e3ace452206c",
+        "name": "Unnecessary Tan Catfish"}, {"id": "e8c35a6a-b95f-4cc7-9cdc-7a7f34effc0a",
+        "name": "Assistant Orange Alpaca"}, {"id": "c0971e3d-e993-4e3c-b9be-8f0e925fefdc",
+        "name": "Valid Crimson Wildfowl"}, {"id": "aa8a28a7-046c-450a-9e47-8d0f9c592d17",
+        "name": "Concerned Indigo Pelican"}, {"id": "f1eccfb5-62e0-4549-8b2f-7cbc1494e189",
+        "name": "Aggressive Chocolate Landfowl"}, {"id": "882b7c41-acd2-47d5-a9a0-13b15c2ebbb3",
+        "name": "Sour Sapphire Dog"}, {"id": "91357746-c829-42ee-b783-87b44e8ca4a7",
+        "name": "Fond Tomato Impala"}, {"id": "75d00134-4e2a-44b6-873f-7684e377c9e7",
+        "name": "Ethical Blue Galliform"}, {"id": "0383f24c-da6c-4c15-830c-5a0ecd30ae12",
+        "name": "Wonderful Amethyst Gorilla"}, {"id": "d9547c62-cad2-482c-8f25-61af504b9912",
+        "name": "Radical Sapphire Hoverfly"}, {"id": "6537f455-6983-49bd-a87a-26f34700e060",
+        "name": "Rainy Rose Octopus"}, {"id": "c33ee054-2378-4703-b32a-227452557630",
+        "name": "Oral Tomato Damselfly"}, {"id": "c78170e0-d68a-4ac8-b366-d0b30a347941",
+        "name": "Depressed Magenta Hyena"}, {"id": "1e6da77f-dc6f-4994-b399-47626db9cd28",
+        "name": "External Beige Parrotfish"}, {"id": "b3b29b72-40e1-46a3-b754-9d5c64f7d68e",
+        "name": "Teenage Tomato Echidna"}, {"id": "22da4abb-6453-43f8-84eb-ccec123c3df1",
+        "name": "Imaginative Fuchsia Armadillo"}, {"id": "f5ce003a-fc08-4b5a-a0b2-28cb154d9444",
+        "name": "Handicapped Crimson Fowl"}, {"id": "bd665715-94ff-46ba-925c-aeb0e910519a",
+        "name": "Graceful Azure Catfish"}, {"id": "6cdca159-1d8e-4269-9763-81e42968e99f",
+        "name": "Dying Beige Mackerel"}, {"id": "2f503318-b95e-4b64-9473-0333c054b750",
+        "name": "Territorial Pink Canidae"}, {"id": "5326a616-d9cc-4bbe-8da0-37dcc8c8c435",
+        "name": "Tall Apricot Bandicoot"}, {"id": "521fbfd1-81a4-4595-aa69-ac2d3ea29302",
+        "name": "Vivacious White Anglerfish"}, {"id": "bb0c87e0-5263-4f5c-b252-97a29ec8bb4a",
+        "name": "Political Harlequin Snail"}, {"id": "865ee0cb-9fb4-4d0c-b1bd-74f41fc754f1",
+        "name": "Progressive Rose Owl"}, {"id": "1085b832-d1df-4d58-8611-44be2787616c",
+        "name": "Leading Ivory Dolphin"}, {"id": "0e88276e-9283-477a-9f6a-6d4ea11b8ee1",
+        "name": "Just Turquoise Turkey"}, {"id": "634a4204-401c-4192-a4c9-6654513e4486",
+        "name": "Olympic Brown Skunk"}, {"id": "e1be8fff-91e1-45a8-aaff-b9ccbb00edcd",
+        "name": "Dead Gray Kangaroo"}, {"id": "debc8790-1231-434e-bb17-e3b92c882db8",
+        "name": "Flat Red Swordtail"}, {"id": "2ab857e2-1b5f-490e-a0be-9f8512fae1b7",
+        "name": "Special Coral Fish"}, {"id": "701b440e-2dc3-4d8f-9666-35d928a533be",
+        "name": "Adequate Coffee Cattle"}, {"id": "f4bb3e8a-4cbf-4623-85b8-7792a9d313d1",
+        "name": "Vital Violet Sparrow"}, {"id": "ba3ceb8f-8785-4c5c-a38d-fcb66ed6ca40",
+        "name": "Regional Gray Goat"}, {"id": "817a0617-1eeb-4389-b928-0f37cc401fe9",
+        "name": "Civic Yellow Primate"}, {"id": "f0e6baf0-257b-4eaf-bfda-4f000ea3934c",
+        "name": "Payable Bronze Grasshopper"}, {"id": "eb8bff5e-8b88-4df2-bcb4-07c29d5e4573",
+        "name": "Desirable Rose Hummingbird"}, {"id": "0d6de2b6-72e4-4e4f-9484-bc38f005eee0",
+        "name": "Certain Gray Anglerfish"}, {"id": "4519d611-3f83-4272-b8aa-f3809f1b128a",
+        "name": "Magic Peach Newt"}, {"id": "657fc311-123e-4ef8-8ec8-2e2c4dae0e82",
+        "name": "Cruel Maroon Pigeon"}, {"id": "15e0d436-7425-40c5-b1f5-bc34e46fe2c5",
+        "name": "Rainy Coffee Clownfish"}, {"id": "00f52f40-46f4-497b-9cf5-07e8f0c2d244",
+        "name": "Light Magenta Bobcat"}, {"id": "b322e72b-066d-415b-b6a7-572b2b4a2f77",
+        "name": "Sound Blue Heron"}, {"id": "3a4f6468-de0f-4583-b6d3-9f5e20e578b3",
+        "name": "Pretty Olive Lungfish"}, {"id": "59eb3860-5841-470b-8956-e5d40f2a7df3",
+        "name": "Optimistic Tan Mackerel"}, {"id": "fdad5b64-f2d1-4950-95e3-5d8c4d84038e",
+        "name": "Inclined Aqua Rodent"}, {"id": "778f3814-57b9-44d1-996f-eb5630322983",
+        "name": "Tough Red Woodpecker"}, {"id": "8467fc11-c85a-41f6-9cea-5d4e01d820ca",
+        "name": "Olympic Pink Turtle"}, {"id": "e4ce5763-ac01-45b4-b6ad-a75b4a0103ff",
+        "name": "Cool Coffee Tyrannosaurus"}, {"id": "b7e8a32f-261a-4f81-beb6-383df31d5a53",
+        "name": "Shared Yellow Reindeer"}, {"id": "a34672eb-5392-443d-899c-5d7e4e790f6c",
+        "name": "Balanced Magenta Puffin"}, {"id": "79685d75-8f3d-454a-bdb1-6bcf3d79522a",
+        "name": "Tough Bronze Bass"}, {"id": "7345dd1b-9557-4fa3-bb44-ef681bd49331",
+        "name": "Short Salmon Urial"}, {"id": "4438f436-01fb-485d-bcfe-14ef8c332805",
+        "name": "Short Violet Cricket"}, {"id": "5ab5efdf-2a77-4ac4-9ccc-8a0e846047d0",
+        "name": "Ugly Salmon Lion"}, {"id": "cf1edf6a-62cb-454d-b943-97973032d851",
+        "name": "Deafening Aqua Harrier"}, {"id": "53d153d3-b005-4e4a-a33e-99b4169e1bff",
+        "name": "Patient Lavender Lamprey"}, {"id": "dff849d1-de23-48f3-abfc-f97c50b79974",
+        "name": "Afraid Harlequin Cat"}, {"id": "4fe668d1-dc4a-4934-9ad9-2aded319b32d",
+        "name": "Monthly Silver Hornet"}, {"id": "34f68308-89fe-4535-b6a8-fc0306e09f1a",
+        "name": "Current Coffee Junglefowl"}, {"id": "bef01722-0648-44d8-b524-a56edd946771",
+        "name": "Ordinary Rose Tahr"}, {"id": "3a0ebfe9-3f0e-45c5-a5db-f0367a5c8268",
+        "name": "Flaky Indigo Macaw"}, {"id": "b680050e-2880-48f8-8473-18b14a30b3d5",
+        "name": "Live Turquoise Horse"}, {"id": "03e32913-a636-48c6-925d-afde55b93dbc",
+        "name": "Healthy Aquamarine Crocodile"}, {"id": "29191298-248d-48d7-8a6a-0bfecbc75f14",
+        "name": "Old Brown Flamingo"}, {"id": "52e41907-045d-429a-af86-066cc018a413",
+        "name": "Lexical Amber Lungfish"}, {"id": "8a49d79b-9885-434b-a636-8322b1eb4367",
+        "name": "Forward Red Alpaca"}, {"id": "d84ac682-66cc-42d2-a781-7922809b6b04",
+        "name": "Marxist Gray Panther"}]'
+  recorded_at: Fri, 04 Oct 2024 17:56:52 GMT
+recorded_with: VCR 6.3.1

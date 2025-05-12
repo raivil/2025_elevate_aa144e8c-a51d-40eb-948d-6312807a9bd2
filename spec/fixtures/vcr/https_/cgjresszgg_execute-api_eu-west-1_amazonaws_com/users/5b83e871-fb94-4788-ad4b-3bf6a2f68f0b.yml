@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/users/5b83e871-fb94-4788-ad4b-3bf6a2f68f0b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      access_token:
+      - fake-access-token
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.12.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 04 Oct 2024 17:53:14 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '218'
+      connection:
+      - keep-alive
+      apigw-requestid:
+      - fIu9jjqFjoEEJuA=
+    body:
+      encoding: UTF-8
+      string: '{"id": "5b83e871-fb94-4788-ad4b-3bf6a2f68f0b", "firstName": "Camryn",
+        "lastName": "Hoppe", "displayName": "camrynHoppe", "avatarUrl": "https://cdn.fakercloud.com/avatars/joshmedeski_128.jpg",
+        "location": "Langoshport"}'
+  recorded_at: Fri, 04 Oct 2024 17:53:13 GMT
+recorded_with: VCR 6.3.1
