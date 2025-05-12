@@ -43,7 +43,7 @@ gem "anyway_config", "~> 2.6.4"
 gem "auto_strip_attributes", "~> 2.6.0"
 gem "database_validations", "~> 1.1.1"
 gem "faraday", "~> 2.12.0"
-gem "strong_migrations", "~> 2.0.0"
+gem "strong_migrations", "~> 2.3.0"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
